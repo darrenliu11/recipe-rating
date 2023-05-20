@@ -6,4 +6,4 @@ This project is about the recipes with ratings from the website food.com. The qu
 
 colories: colories of the recipes(#).
 
-average_rating_per_recipes: the mean rating of the recipes.
+average_rating_per_recipes: the mean rating of the recipes. 
