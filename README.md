@@ -29,33 +29,49 @@ average_rating_per_recipes: the mean rating of the recipes.
 
 ### Univariate Analysis
 
-<iframe src="file:///C:/Users/1kobe/dsc80/recipe-rating/data/rating_distribution.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/rating_distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 There are more recipes that are higher ratings.
 
-<iframe src="file:///C:/Users/1kobe/dsc80/recipe-rating/data/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 There are more recipes that are lower calories.
 
 
 ### Bivariate Analysis
 
-<iframe src="file:///C:/Users/1kobe/dsc80/recipe-rating/data/scatter_rating_calories.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/scatter_rating_calories.html" width=800 height=600 frameBorder=0></iframe>
 
 The relationship between calories and rating is weak.
 
 ### Interesting Aggregates
 
-|   calories |
-|-----------:|
-|    486.595 |
-|    446.598 |
-|    425.791 |
-|    405.047 |
-|    415.213 |
+|   rating |   calories |
+|---------:|-----------:|
+|        1 |    486.595 |
+|        2 |    446.598 |
+|        3 |    425.791 |
+|        4 |    405.047 |
+|        5 |    415.213 |
 
 recipes with lower rating tend to have higher calories
 
 ## Assessment of Missingness
 
 ### NMAR Analysis
+the rating columns in my dataset is NMAR because the recipe contributor may not want
+rate the ratings of the recipes.
+
+### Missingness Dependency
+
+<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/dist_abs_diff_calories_means.html" width=800 height=600 frameBorder=0></iframe>
+
+the simulated data a different from the observed data. we reject the null hypothesis that
+the distribution of calories when rating is missing is the same as the distribution of calories when rating is not missing. Hence, we conclude that the missingness in the rating
+column is dependent on gender.
+
+## Hypothesis Testing
+
+<iframe src="" width=800 height=600 frameBorder=0></iframe>
+
+
