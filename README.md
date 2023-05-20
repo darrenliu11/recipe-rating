@@ -29,18 +29,18 @@ average_rating_per_recipes: the mean rating of the recipes.
 
 ### Univariate Analysis
 
-<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/rating_distribution.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/rating_distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 There are more recipes that are higher ratings.
 
-<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 There are more recipes that are lower calories.
 
 
 ### Bivariate Analysis
 
-<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/scatter_rating_calories.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/scatter_rating_calories.html" width=800 height=600 frameBorder=0></iframe>
 
 The relationship between calories and rating is weak.
 
@@ -64,7 +64,7 @@ rate the ratings of the recipes.
 
 ### Missingness Dependency
 
-<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/dist_abs_diff_calories_means.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/dist_abs_diff_calories_means.html" width=800 height=600 frameBorder=0></iframe>
 
 the simulated data a different from the observed data. we reject the null hypothesis that
 the distribution of calories when rating is missing is the same as the distribution of calories when rating is not missing. Hence, we conclude that the missingness in the rating
@@ -79,7 +79,7 @@ alternative hypothesis: recipes with rating 5 does not have the same average cal
 
 significane level: 5%
 
-<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/permutation_fig.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/permutation_fig.html" width=800 height=600 frameBorder=0></iframe>
 
 p value = 0.0
 
