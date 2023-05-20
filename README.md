@@ -72,6 +72,13 @@ column is dependent on gender.
 
 ## Hypothesis Testing
 
-<iframe src="" width=800 height=600 frameBorder=0></iframe>
+null hypothesis: recipes with rating 5 has the same distribution of calories as recipes with
+                 rating 1
+alternative hypothesis: recipes with rating 5 does not have the same average calories as
+                        recipes with rating 1
 
+significane level: 5%
 
+<iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/permutation_fig.html" width=800 height=600 frameBorder=0></iframe>
+
+we reject the null hypothesis that recipes with rating 5 has the same distribution of calories as recipes with rating 1
