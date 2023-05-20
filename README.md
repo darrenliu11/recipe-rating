@@ -81,4 +81,6 @@ significane level: 5%
 
 <iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/permutation_fig.html" width=800 height=600 frameBorder=0></iframe>
 
+p value = 0.0
+
 we reject the null hypothesis that recipes with rating 5 has the same distribution of calories as recipes with rating 1
