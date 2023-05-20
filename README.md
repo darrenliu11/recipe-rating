@@ -29,5 +29,7 @@ average_rating_per_recipes: the mean rating of the recipes.
 
 # Univariate Analysis
 <iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/data/rating_distribution.html" width=800 height=600 frameBorder=0></iframe>
+There are more recipes that are higher ratings.
 
 <iframe src="file:///C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/data/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
+There are more recipes that are lower calories.
