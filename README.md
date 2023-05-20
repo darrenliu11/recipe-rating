@@ -33,7 +33,7 @@ average_rating_per_recipes: the mean rating of the recipes.
 
 There are more recipes that are higher ratings.
 
-<iframe src="C:/Users/1kobe/Desktop/dsc80-2023-sp/projects/03-topics/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
+<iframe src="./fig/calories_distribution.html" width=800 height=600 frameBorder=0></iframe>
 
 There are more recipes that are lower calories.
 
@@ -74,6 +74,7 @@ column is dependent on gender.
 
 null hypothesis: recipes with rating 5 has the same distribution of calories as recipes with
                  rating 1
+                 
 alternative hypothesis: recipes with rating 5 does not have the same average calories as
                         recipes with rating 1
 
